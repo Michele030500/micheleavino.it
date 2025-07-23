@@ -38,10 +38,10 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-        Welcome, discover my projects, or, if you prefer, contact me.<a href="/privacy">Privacy&Policy</a></h2>
+        Welcome, discover my projects, or, if you prefer, contact me.</h2>
       </div>
 
-      <footer className="bg-zinc-900 text-zinc-400 py-8">
+      <footer className="text-zinc-400 py-8">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left space-y-1">
             <p className="text-zinc-200 font-semibold">Michele Avino</p>

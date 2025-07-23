@@ -69,7 +69,7 @@ export default function ProjectsPage() {
     .sort((a, b) => new Date(b.date ?? "").getTime() - new Date(a.date ?? "").getTime());
 
   return (
-    <div className="relative pb-16">
+    <div className="relative">
       <Navigation />
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="max-w-2xl mx-auto lg:mx-0">
@@ -152,7 +152,7 @@ export default function ProjectsPage() {
           ))}
         </div>
       </div>
-      <footer className="bg-zinc-900 text-zinc-400 py-8">
+      <footer className="bg-zinc-900 text-zinc-400 py-8 mt-8">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left space-y-1">
             <p className="text-zinc-200 font-semibold">Michele Avino</p>

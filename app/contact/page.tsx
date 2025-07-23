@@ -58,7 +58,7 @@ export default function Example() {
 					))}
 				</div>
 			</div>
-			<footer className="bg-zinc-900 text-zinc-400 py-8">
+			<footer className="bg-zinc-900 text-zinc-400 py-8 mt-8">
 				<div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
 				<div className="text-center md:text-left space-y-1">
 					<p className="text-zinc-200 font-semibold">Michele Avino</p>
