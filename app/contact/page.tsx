@@ -1,21 +1,21 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://x.com/michele_avino",
-		label: "Twitter",
-		handle: "@michele_avino",
+		icon: <Phone size={20} />,
+		href: "",
+		label: "Customer Support",
+		handle: "+393384716560",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@micheleavino.it",
-		label: "Email",
-		handle: "dev@micheleavino.it",
+		href: "mailto:michele.avino.2000@gmail.com",
+		label: "Support Email",
+		handle: "michele.avino.2000@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
