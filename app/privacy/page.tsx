@@ -1,11 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import Particles from "../components/particles";
+import { Mail, Phone } from "lucide-react";
 
 export default function Privacy() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-auto bg-gradient-to-tl from-black via-zinc-600/20 to-black p-4">
-      <Particles />
       <div className="w-full max-w-3xl bg-white bg-opacity-90 text-black rounded-lg shadow-lg p-8 overflow-y-auto h-full">
         <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
         <section className="mb-4">
@@ -95,6 +94,28 @@ export default function Privacy() {
           <p className="mt-4 text-sm">Last Updated: July 23, 2025</p>
         </section>
       </div>
+      <footer className="bg-zinc-900 text-zinc-400 py-8">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-center md:text-left space-y-1">
+            <p className="text-zinc-200 font-semibold">Michele Avino</p>
+            <p>P.IVA 06257910650</p>
+            <p>via Capone 76, Scafati (SA) 84018, Italy</p>
+          </div>
+          <div className="mt-4 md:mt-0 flex flex-col sm:flex-row items-center gap-6">
+            <a href="tel:+393394716560" className="flex items-center hover:text-white">
+              <Phone size={20} className="mr-2" />
+              +39 339 471 6560
+            </a>
+            <a href="mailto:michele.avino.2000@gmail.com" className="flex items-center hover:text-white">
+              <Mail size={20} className="mr-2" />
+              michele.avino.2000@gmail.com
+            </a>
+            <Link href="/privacy" className="hover:text-white">
+              Privacy &amp; Policy
+            </Link>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

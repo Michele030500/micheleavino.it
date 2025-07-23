@@ -106,6 +106,28 @@ export default function About() {
           </Card>
         </div>
       </div>
+      <footer className="bg-zinc-900 text-zinc-400 py-8">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-center md:text-left space-y-1">
+            <p className="text-zinc-200 font-semibold">Michele Avino</p>
+            <p>P.IVA 06257910650</p>
+            <p>via Capone 76, Scafati (SA) 84018, Italy</p>
+          </div>
+          <div className="mt-4 md:mt-0 flex flex-col sm:flex-row items-center gap-6">
+            <a href="tel:+393394716560" className="flex items-center hover:text-white">
+              <Phone size={20} className="mr-2" />
+              +39 339 471 6560
+            </a>
+            <a href="mailto:michele.avino.2000@gmail.com" className="flex items-center hover:text-white">
+              <Mail size={20} className="mr-2" />
+              michele.avino.2000@gmail.com
+            </a>
+            <Link href="/privacy" className="hover:text-white">
+              Privacy &amp; Policy
+            </Link>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
